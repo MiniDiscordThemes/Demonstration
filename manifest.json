@@ -1,0 +1,20 @@
+{
+  "id": "net.saltssaumure.Template",
+  "name": "Template",
+  "description": "A template theme for multiple client mod support.",
+  "author": {
+    "name": "Saltssaumure",
+    "discordID": "134142022092062720",
+    "github": "Saltssaumure"
+  },
+  "version": "1.0.0",
+  "updater": {
+    "type": "store",
+    "id": "net.saltssaumure.Template"
+  },
+  "license": "MIT",
+  "type": "replugged-theme",
+  "main": "scss/temp.scss",
+  "source": "https://github.com/MiniDiscordThemes/Template",
+  "image": ["https://minidiscordthemes.github.io/Template/preview/preview.avif"]
+}

@@ -1,0 +1,32 @@
+name: Lint
+
+on:
+  push:
+    branches-ignore:
+      - deploy
+  pull_request:
+
+jobs:
+  run-linters:
+    name: Run linters
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout theme
+        uses: actions/checkout@v4
+
+      - name: Setup node
+        uses: actions/setup-node@v4
+        with:
+            node-version: 21
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+            version: latest
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Run linters
+        run: pnpm run lint
