@@ -1,8 +1,8 @@
 {
-  "name": "template-discord-theme",
+  "name": "demonstration-discord-theme",
   "version": "1.0.0",
-  "description": "A template Discord theme for multiple client mod support.",
-  "repository": "github:MiniDiscordThemes/Template",
+  "description": "A Discord theme for demonstrating Discord themes.",
+  "repository": "github:MiniDiscordThemes/Demonstration",
   "author": "Saltssaumure <themes@saltssaumure.net>",
   "license": "MIT",
   "private": true,
