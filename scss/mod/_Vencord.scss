@@ -1,9 +1,5 @@
 // Hide Vencord elements if user sets --demo-vencord to hidden
 
-:root {
-    container: demo-vencord;
-}
-
 @container demo-vencord style(--demo-vencord: hidden) {
     // Hide Vencord Toolbox
     .vc-toolbox-btn {

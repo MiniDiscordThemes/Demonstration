@@ -1,8 +1,4 @@
 // Hide Replugged elements if user sets --demo-replugged to hidden
 
-:root {
-    container: demo-replugged;
-}
-
 @container demo-replugged style(--demo-replugged: hidden) {
 }
