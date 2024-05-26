@@ -13,6 +13,41 @@
     @include genColors;
 }
 
+// In DM list
+.container__3792d {
+    @include genColors;
+}
+
+// In DM title
+.upperContainer__57565 {
+    @include genOneColor(var(--demo-icon-hue));
+}
+
+// In DM profile mutual friends
+.listRow__50619 {
+    @include genColors;
+}
+
+// In quick switcher modal
+.result__25f11 {
+    @include genColors;
+}
+
+// In invite to server modal
+.inviteRow_d6ad74 {
+    @include genColors;
+}
+
+// In "Select Friends" popout
+.friendWrapper_f9b51d {
+    @include genColors;
+}
+
+// In avatar decoration shop
+.shopCard__3d319 {
+    @include genColors;
+}
+
 // In pinned messages
 .messageGroupWrapper__1fce2 {
     @include genColors;
