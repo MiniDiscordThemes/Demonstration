@@ -105,7 +105,7 @@ To edit the following variables, follow the instructions for your client mod.
 | `--demo-text`          | Toggle text censor                   | `censor` or `normal`               | `censor`      |
 | `--demo-clientmod`     | Toggle client mod element visibility | `visible` or `hidden`              | `visible`     |
 | `--demo-emoji-radius`  | Corner rounding for emojis           | Any [length][css-length]           | `4px`         |
-| `--demo-emoji-opacity` | Opacity for emojis                   | `0` to `1`.                        | `0.5`         |
+| `--demo-emoji-opacity` | Opacity for emojis                   | `0` to `1`                         | `0.5`         |
 | `--demo-icon-hue`      | Hue for icons, emojis, badges        | `0` to `360`                       | `240`         |
 | `--demo-image-hue`     | Hue for image attachments            | `0` to `360`                       | `270`         |
 | `--demo-banner-hue`    | Hue for server banners               | `0` to `360`                       | `180`         |
