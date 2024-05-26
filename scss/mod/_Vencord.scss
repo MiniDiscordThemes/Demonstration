@@ -1,0 +1,37 @@
+// Hide Vencord elements if user sets --demo-vencord to hidden
+
+@container demo-clientmod style(--demo-clientmod: hidden) {
+    // Hide Vencord Toolbox
+    .vc-toolbox-btn {
+        display: none;
+    }
+
+    // Hide Vencord chat buttons
+    .vc-chatbar-button {
+        display: none;
+    }
+
+    // Hide "Disable Game Activity" button
+    .horizontal__4848b {
+        [aria-label="Disable Game Activity"] {
+            display: none;
+        }
+    }
+
+    // Hide "Translate" button
+    [aria-label="Translate"] {
+        display: none;
+    }
+
+    // Hide Vencord profile badges
+    .profileBadges__1f2ab .anchor_c8ddc0:has([src*="badges.vencord"]) {
+        display: none;
+    }
+
+    // Hide Vencord settings tabs
+    .header__71a82:has(+ .item__48dda[class^="vc-"]),
+    .item__48dda[class^="vc-"],
+    .item__48dda[class^="vc-"] + .separator_d14fb1 {
+        display: none;
+    }
+}

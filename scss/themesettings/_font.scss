@@ -1,0 +1,22 @@
+// Show or hide text based on user settings
+// Default to hidden unless user sets to visible
+@property --demo-text {
+    syntax: "normal | censor";
+    inherits: false;
+    initial-value: censor;
+}
+
+// Variant of censored font "Flow <variant>"
+@property --demo-font-variant {
+    syntax: "Circular | Rounded | Block";
+    inherits: false;
+    initial-value: Circular;
+}
+
+// Emoji font
+// Outline-only or system default
+@property --demo-font-emoji {
+    syntax: "Noto | none";
+    inherits: false;
+    initial-value: Noto;
+}

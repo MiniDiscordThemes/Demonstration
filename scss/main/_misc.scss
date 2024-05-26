@@ -1,22 +1,27 @@
-@use "../vars" as *;
-@use "../mixins" as *;
+@use "../vars" as var;
+@use "../mixins" as mixin;
 
-// Stuff I'm not sure where to put yet
+// Misc content
+
+// Profile banner
+.banner__6d414 {
+    background-image: none !important;
+}
 
 // Server banner
 .bannerImg_fe5c1b {
-    @include genOneColor(var(--demo-banner-hue));
-    content: $gradient;
+    @include mixin.genOneColor(var(--demo-banner-hue));
+    content: var.$gradient;
 }
 
 // Emoji, role icon, clan badge
 .emoji,
 .roleIcon__92480,
 .badge_d12073 {
-    @include genOneColor(var(--demo-icon-hue));
-    content: $gradient;
-    @include addRoundedCorners;
-    @include addTransparency;
+    @include mixin.genOneColor(var(--demo-icon-hue));
+    content: var.$gradient;
+    @include mixin.addRoundedCorners;
+    @include mixin.addTransparency;
     aspect-ratio: 1 / 1;
     object-fit: unset;
 }
@@ -24,15 +29,19 @@
 // Activity icon
 .assetsLargeImage__57902,
 .assetsSmallImage__4c2f1,
-.gameIcon_f19d1f {
-    @include genOneColor(var(--demo-icon-hue));
-    content: $gradient;
+.largeImage_afc95a,
+.smallImage__5c837,
+.gameIcon_f19d1f,
+.headerIcon__8b290,
+.multipleIconWrapper__8dd58 {
+    @include mixin.genOneColor(var(--demo-icon-hue));
+    content: var.$gradient;
 }
 
 // Authorised apps
 .authedApp__71a52 {
-    @include genColors;
+    @include mixin.genColors;
     .appAvatar__1fa87 {
-        content: $gradient;
+        content: var.$gradient;
     }
 }

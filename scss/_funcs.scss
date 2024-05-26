@@ -1,0 +1,11 @@
+@use "sass:list";
+@use "sass:string";
+
+// Generate unquoted list of selectors from list
+@function unquoteSelectors($selectors) {
+    $unquoted: ();
+    @each $selector in $selectors {
+        $unquoted: list.append($unquoted, string.unquote($selector), comma);
+    }
+    @return $unquoted;
+}

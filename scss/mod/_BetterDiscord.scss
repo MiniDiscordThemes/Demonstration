@@ -1,0 +1,4 @@
+// Hide BetterDiscord elements if user sets --demo-clientmod to hidden
+
+@container demo-clientmod style(--demo-clientmod: hidden) {
+}

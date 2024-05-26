@@ -1,5 +1,5 @@
-@use "../../vars" as *;
-@use "../../mixins" as *;
+@use "../../vars" as var;
+@use "../../mixins" as mixin;
 
 // User avatar mixed type and location
 
@@ -7,7 +7,7 @@
 :is(.avatarHoverTarget__9b4a9, .avatar__445f3) {
     // Unthemed
     .userProfileOuterUnthemed__9741c & {
-        @include genOneColor(var(--demo-icon-hue));
+        @include mixin.genOneColor(var(--demo-icon-hue));
     }
     // Themed
     .userProfileOuterThemed_a425f3 & {
@@ -19,24 +19,24 @@
 
 // In VC server tooltip
 :is(.avatarContainerMasked_ed6212, .avatarContainer__37747) {
-    @include genColors(6);
+    @include mixin.genColors(6);
     .avatar__777a6 {
-        content: $gradient;
+        content: var.$gradient;
     }
 }
 
 // In channelslist in VC
 .draggable__68384 {
-    @include genColors(7);
+    @include mixin.genColors(7);
     .userAvatar_f45224 {
-        background: $gradient !important;
+        background: var.$gradient !important;
     }
 }
 
 // In user panel current VC
 .avatarContainer__9688b {
-    @include genColors(8);
+    @include mixin.genColors(8);
     .avatar_c9fdd4 {
-        background: $gradient !important;
+        background: var.$gradient !important;
     }
 }

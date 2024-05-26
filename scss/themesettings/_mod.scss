@@ -1,0 +1,7 @@
+// Show or hide client mod elements based on user settings
+// Default to visible unless user sets to hidden
+@property --demo-clientmod {
+    syntax: "visible | hidden";
+    inherits: false;
+    initial-value: visible;
+}

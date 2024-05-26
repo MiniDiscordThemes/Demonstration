@@ -10,7 +10,16 @@ $gradient: linear-gradient($color 0 100%);
 //     );
 
 //     // Weird marble (nice)
-//     $gradient: radial-gradient(circle at 25% 25% in oklch longer hue, var(--demo-gradient-color), transparent),
-//         radial-gradient(circle at 75% 75% in oklch longer hue, transparent, hsl(from var(--demo-gradient-color) calc(h + 60) calc(s + 1) l)),
-//         hsl(from var(--demo-gradient-color) calc(h + 60) calc(s - 1) l);
+//     $gradient: radial-gradient(
+//             circle at 25% 25% in oklch longer hue,
+//             var(--demo-gradient-color),
+//             transparent
+//         ),
+//         radial-gradient(
+//             circle at 75% 75% in oklch longer hue,
+//             transparent,
+//             hsl(from var(--demo-gradient-color) calc(h + 60) calc(s + 1) l)
+//         ),
+//         hsl(from var(--demo-gradient-color) calc(h + 60) calc(s - 1) l)
+//     ;
 // }

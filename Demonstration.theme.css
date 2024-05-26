@@ -4,7 +4,7 @@
  * @authorLink https://github.com/Saltssaumure
  * @description A Discord theme for demonstrating Discord themes.
  * @license MIT
- * @version 1.0
+ * @version 1.1
  * @invite uy8nKQVatp
  * @source https://github.com/MiniDiscordThemes/Demonstration
  * @donate https://ko-fi.com/saltssaumure
@@ -16,13 +16,12 @@
 :root {
     --demo-font-variant:    Circular;
     --demo-font-emoji:      Noto;
-    --demo-vencord-display: block;
+    --demo-text:            censor;
+    --demo-clientmod:       visible;
     --demo-emoji-radius:    4px;
     --demo-emoji-opacity:   0.5;
     --demo-icon-hue:        240;
     --demo-image-hue:       270;
     --demo-banner-hue:      180;
     --demo-self-hue:        300;
-    --demo-font-read:       none;
-    --demo-font-code-read:  none;
 }
