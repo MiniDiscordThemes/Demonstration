@@ -1,0 +1,118 @@
+@use "../../vars" as *;
+@use "../../mixins" as *;
+
+// User avatar location
+
+// In chat message
+.messageListItem__050f9 {
+    @include genColors;
+}
+
+// In active threads
+.container__9922f {
+    @include genColors;
+}
+
+// In DM list
+.container__3792d {
+    @include genColors;
+}
+
+// In DM title
+.upperContainer__57565 {
+    @include genOneColor(var(--demo-icon-hue));
+}
+
+// In DM profile mutual friends
+.listRow__50619 {
+    @include genColors;
+}
+
+// In quick switcher modal
+.result__25f11 {
+    @include genColors;
+}
+
+// In invite to server modal
+.inviteRow_d6ad74 {
+    @include genColors;
+}
+
+// In "Select Friends" popout
+.friendWrapper_f9b51d {
+    @include genColors;
+}
+
+// In avatar decoration shop
+.shopCard__3d319 {
+    @include genColors;
+}
+
+// In pinned messages
+.messageGroupWrapper__1fce2 {
+    @include genColors;
+}
+
+// In inbox mentions
+.container__7c2c1 {
+    @include genColors;
+}
+
+// In inbox unreads
+.messageContainer__3e208 {
+    @include genColors;
+}
+
+// In memberslist
+.member_aa4760 {
+    @include genColors;
+}
+
+// In user panel - self
+.panels__58331 .avatar__991e2 {
+    @include genOneColor(var(--demo-self-hue));
+}
+
+// In settings - self
+.accountProfileCard__744d8,
+.avatarUploader__1f1a2,
+.profile_db01cf,
+.preview__30ef4,
+.preview__22e05 {
+    @include genOneColor(var(--demo-self-hue));
+}
+
+// In settings nitro tab
+.iconContainer_e812a7 .wrapper__3ed10 {
+    @include genColors(3);
+}
+
+// In "<number> in voice" bubble
+.avatarSize__70e76 {
+    @include genColors(4);
+}
+
+// In search suggestions
+.option__91497 {
+    @include genColors;
+}
+
+// In search results
+.container__3be1d {
+    @include genColors;
+}
+
+// In vc status
+.statusIcon_dd26a9 {
+    @include genOneColor(var(--demo-icon-hue));
+}
+
+// In VC video
+// Large video
+.videoFrame_de25a1 {
+    @include genOneColor(var(--demo-icon-hue));
+}
+// Small video in row
+.tileSizer__9b4d7 {
+    @include genColors(4);
+}

@@ -1,0 +1,34 @@
+@use "../../vars" as *;
+@use "../../mixins" as *;
+
+// User avatar type
+
+// Avatar with status mask
+.avatar__991e2:where(:not(.avatarDecoration_cf681a .avatar__991e2)) {
+    content: $gradient;
+}
+
+// Chat avatar
+.avatar__08316 {
+    content: $gradient;
+}
+
+// Reply avatar
+:is(.threadMessageAccessoryAvatar__27333, .replyAvatar__4ba85, .executedCommandAvatar_cfc856) {
+    content: $gradient;
+}
+
+// Inbox unread avatar
+.dmIcon__160f0 {
+    content: $gradient;
+}
+
+// Search suggestions avatar
+.displayAvatar__0be99 {
+    content: $gradient;
+}
+
+// Profile settings avatar
+.avatarUploaderInner__71578 {
+    background: $gradient !important;
+}

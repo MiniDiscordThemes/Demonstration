@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Flow+Block&family=Flow+Rounded&family=Flow+Circular&family=Noto+Emoji&display=swap");
+
+:root {
+    --font-primary: var(--demo-font-read), Flow var(--demo-font-variant), var(--demo-font-emoji) Emoji, system-ui !important;
+    --font-display: var(--demo-font-read), Flow var(--demo-font-variant), var(--demo-font-emoji) Emoji, system-ui !important;
+    --font-headline: var(--demo-font-read), Flow var(--demo-font-variant), var(--demo-font-emoji) Emoji, system-ui !important;
+    --font-code: var(--demo-font-code-read), var(--demo-font-read), Flow var(--demo-font-variant), var(--demo-font-emoji) Emoji, monospace !important;
+    --font-clan-body: var(--demo-font-read), Flow var(--demo-font-variant), var(--demo-font-emoji) Emoji, system-ui !important;
+    --font-clan-signature: var(--demo-font-read), Flow var(--demo-font-variant), var(--demo-font-emoji) Emoji, system-ui !important;
+}

@@ -1,0 +1,37 @@
+@use "../vars" as *;
+@use "../mixins" as *;
+
+// Stuff I'm not sure where to put yet
+
+// Server banner
+.bannerImg_fe5c1b {
+    @include genOneColor(var(--demo-banner-hue));
+    content: $gradient;
+}
+
+// Emoji, role icon, clan badge
+.emoji,
+.roleIcon__92480,
+.badge_d12073 {
+    @include genOneColor(var(--demo-icon-hue));
+    content: $gradient;
+    @include addRoundedCorners;
+    @include addTransparency;
+    aspect-ratio: 1 / 1;
+}
+
+// Activity icon
+.assetsLargeImage__57902,
+.assetsSmallImage__4c2f1,
+.gameIcon_f19d1f {
+    @include genOneColor(var(--demo-icon-hue));
+    content: $gradient;
+}
+
+// Authorised apps
+.authedApp__71a52 {
+    @include genColors;
+    .appAvatar__1fa87 {
+        content: $gradient;
+    }
+}

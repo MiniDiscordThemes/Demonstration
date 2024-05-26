@@ -1,0 +1,33 @@
+// Hide Vencord Toolbox
+.vc-toolbox-btn {
+    display: var(--demo-vencord-display);
+}
+
+// Hide Vencord chat buttons
+.vc-chatbar-button {
+    display: var(--demo-vencord-display);
+}
+
+// Hide "Disable Game Activity" button
+.horizontal__4848b {
+    [aria-label="Disable Game Activity"] {
+        display: var(--demo-vencord-display);
+    }
+}
+
+// Hide "Translate" button
+[aria-label="Translate"] {
+    display: var(--demo-vencord-display);
+}
+
+// Hide "Vencord Contributor" profile badge
+[aria-label="Vencord Contributor"] {
+    display: var(--demo-vencord-display);
+}
+
+// Hide Vencord settings tabs
+.header__71a82:has(+ .item__48dda[class^="vc-"]),
+.item__48dda[class^="vc-"],
+.item__48dda[class^="vc-"] + .separator_d14fb1 {
+    display: var(--demo-vencord-display);
+}
