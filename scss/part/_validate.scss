@@ -28,42 +28,42 @@
 // Border radius for emojis
 @property --demo-emoji-radius {
     syntax: "<length>";
-    inherits: false;
+    inherits: true;
     initial-value: 4px;
 }
 
 // Opacity for emojis
 @property --demo-emoji-opacity {
     syntax: "<number>";
-    inherits: false;
+    inherits: true;
     initial-value: 0.5;
 }
 
 // Hue for emojis, icons, badges, etc.
 @property --demo-icon-hue {
     syntax: "<number>";
-    inherits: false;
+    inherits: true;
     initial-value: 240;
 }
 
 // Hue for attachments
 @property --demo-image-hue {
     syntax: "<number>";
-    inherits: false;
+    inherits: true;
     initial-value: 270;
 }
 
 // Hue for server banners
 @property --demo-banner-hue {
     syntax: "<number>";
-    inherits: false;
+    inherits: true;
     initial-value: 180;
 }
 
 // Hue for self avatars
 @property --demo-self-hue {
     syntax: "<number>";
-    inherits: false;
+    inherits: true;
     initial-value: 300;
 }
 
