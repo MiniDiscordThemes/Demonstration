@@ -96,20 +96,20 @@ Install a client mod, then follow the instructions below.
 </details>
 
 ## Customisation
-Follow the instructions for your client mod to edit the following variables.
+To edit the following variables, follow the instructions for your client mod.
 
-| Variable               | Description                           | Valid values                       | Default value |
-| ---------------------- | ------------------------------------- | ---------------------------------- | ------------- |
-| `--demo-font-variant`  | Censored font style                   | `Circular` or `Rounded` or `Block` | `Circular`    |
-| `--demo-font-emoji`    | Emoji font style                      | `Noto` or `none`                   | `Noto`        |
-| `--demo-text`          | Show or censor text                   | `normal` or `censor`               | `censor`      |
-| `--demo-clientmod`     | Show or hide client mod elements      | `visible` or `hidden`              | `visible`     |
-| `--demo-emoji-radius`  | Additional corner rounding for emojis | Any [length][css-length].          | `4px`         |
-| `--demo-emoji-opacity` | Opacity for emojis                    | `0` to `1`.                        | `0.5`         |
-| `--demo-icon-hue`      | Hue for icons, emojis, badges         | `0` to `360`.                      | `240`         |
-| `--demo-image-hue`     | Hue for image attachments             | `0` to `360`.                      | `270`         |
-| `--demo-banner-hue`    | Hue for server banners                | `0` to `360`.                      | `180`         |
-| `--demo-self-hue`      | Hue for your own avatar               | `0` to `360`.                      | `300`         |
+| Variable               | Description                          | Valid values                       | Default value |
+| ---------------------- | ------------------------------------ | ---------------------------------- | ------------- |
+| `--demo-font-variant`  | Font style for censored text         | `Circular` or `Rounded` or `Block` | `Circular`    |
+| `--demo-font-emoji`    | Font style for emojis                | `Noto` or `none`                   | `Noto`        |
+| `--demo-text`          | Toggle text censor                   | `censor` or `normal`               | `censor`      |
+| `--demo-clientmod`     | Toggle client mod element visibility | `visible` or `hidden`              | `visible`     |
+| `--demo-emoji-radius`  | Corner rounding for emojis           | Any [length][css-length]           | `4px`         |
+| `--demo-emoji-opacity` | Opacity for emojis                   | `0` to `1`.                        | `0.5`         |
+| `--demo-icon-hue`      | Hue for icons, emojis, badges        | `0` to `360`                       | `240`         |
+| `--demo-image-hue`     | Hue for image attachments            | `0` to `360`                       | `270`         |
+| `--demo-banner-hue`    | Hue for server banners               | `0` to `360`                       | `180`         |
+| `--demo-self-hue`      | Hue for your own avatar              | `0` to `360`                       | `300`         |
 
 ### BetterDiscord
 <details>
