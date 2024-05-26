@@ -77,18 +77,19 @@
 
 ## Customisation
 
-| Variable                  | Description                           | Valid values                       | Default value |
-| ------------------------- | ------------------------------------- | ---------------------------------- | ------------- |
-| `--demo-font-variant`     | Censored font style                   | `Circular` or `Rounded` or `Block` | `Circular`    |
-| `--demo-font-emoji`       | Emoji font style                      | `Noto` or `none`                   | `Noto`        |
-| `--demo-emoji-radius`     | Additional corner rounding for emojis | Any [length][css-length].          | `4px`         |
-| `--demo-emoji-opacity`    | Opacity of emojis                     | `0` to `1`.                        | `0.5`         |
-| `--demo-icon-hue`         | Hue for icons, emojis, badges         | `0` to `360`.                      | `240`         |
-| `--demo-image-hue`        | Hue for image attachments             | `0` to `360`.                      | `270`         |
-| `--demo-banner-hue`       | Hue for server banners                | `0` to `360`.                      | `180`         |
-| `--demo-self-hue`         | Hue for your own avatar               | `0` to `360`.                      | `300`         |
-| `--demo-font-reader`      | Uncensored font                       | Any installed font.                | `none`        |
-| `--demo-font-code-reader` | Uncensored code font                  | Any installed font.                | `none`        |
+| Variable                 | Description                           | Valid values                       | Default value |
+| ------------------------ | ------------------------------------- | ---------------------------------- | ------------- |
+| `--demo-font-variant`    | Censored font style                   | `Circular` or `Rounded` or `Block` | `Circular`    |
+| `--demo-font-emoji`      | Emoji font style                      | `Noto` or `none`                   | `Noto`        |
+| `--demo-vencord-display` | Hide or display Vencord elements      | `block` or `none`                  | `block`       |
+| `--demo-emoji-radius`    | Additional corner rounding for emojis | Any [length][css-length].          | `4px`         |
+| `--demo-emoji-opacity`   | Opacity of emojis                     | `0` to `1`.                        | `0.5`         |
+| `--demo-icon-hue`        | Hue for icons, emojis, badges         | `0` to `360`.                      | `240`         |
+| `--demo-image-hue`       | Hue for image attachments             | `0` to `360`.                      | `270`         |
+| `--demo-banner-hue`      | Hue for server banners                | `0` to `360`.                      | `180`         |
+| `--demo-self-hue`        | Hue for your own avatar               | `0` to `360`.                      | `300`         |
+| `--demo-font-read`       | Uncensored font                       | Any installed font.                | `none`        |
+| `--demo-font-code-read`  | Uncensored code font                  | Any installed font.                | `none`        |
 
 ### BetterDiscord
 1. Open `Settings` > `BetterDiscord` > `Themes`.

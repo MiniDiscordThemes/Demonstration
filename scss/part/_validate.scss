@@ -14,8 +14,15 @@
 
 // Emergency legible font
 :root {
-    --demo-font-reader: none;
-    --demo-font-code-reader: none;
+    --demo-font-read: none;
+    --demo-font-code-read: none;
+}
+
+// Vencord display
+@property --demo-vencord-display {
+    syntax: "block | none";
+    inherits: true;
+    initial-value: block;
 }
 
 // Border radius for emojis
