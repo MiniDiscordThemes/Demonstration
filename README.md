@@ -102,7 +102,7 @@
 ### Replugged
 1. Enable `Automatically Apply Quick CSS` in `Settings` > `Replugged` > `General`.
 2. Open `Settings` > `Replugged` > `Quick CSS`.
-3. Copy and paste lines 15-26 of [`Demonstration.theme.css`][.theme.css].
+3. Copy and paste lines 15-28 of [`Demonstration.theme.css`][.theme.css].
 4. Edit the variable values and save.
 
 ### Vencord
@@ -112,7 +112,7 @@
 3. Edit the variable values and save.
 #### Online
 1. `Enable Custom CSS` in `Settings` > `Vencord` > `Vencord` and click `Open QuickCSS File`.
-2. Copy and paste lines 15-26 of [`Demonstration.theme.css`][.theme.css].
+2. Copy and paste lines 15-28 of [`Demonstration.theme.css`][.theme.css].
 3. Edit the variable values.
 
 ## License
