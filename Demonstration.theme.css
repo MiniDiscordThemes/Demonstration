@@ -16,7 +16,9 @@
 :root {
     --demo-font-variant:    Circular;
     --demo-font-emoji:      Noto;
-    --demo-vencord-display: block;
+    --demo-betterdiscord:   visible;
+    --demo-replugged:       visible;
+    --demo-vencord:         visible;
     --demo-emoji-radius:    4px;
     --demo-emoji-opacity:   0.5;
     --demo-icon-hue:        240;

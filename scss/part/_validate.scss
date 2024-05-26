@@ -18,11 +18,26 @@
     --demo-font-code-read: none;
 }
 
-// Vencord display
-@property --demo-vencord-display {
-    syntax: "block | none";
-    inherits: true;
-    initial-value: block;
+// Show BetterDiscord elements?
+// Default to visible unless user sets to hidden
+@property --demo-betterdiscord {
+    syntax: "visible | hidden";
+    inherits: false;
+    initial-value: visible;
+}
+// Show Replugged elements?
+// Default to visible unless user sets to hidden
+@property --demo-replugged {
+    syntax: "visible | hidden";
+    inherits: false;
+    initial-value: visible;
+}
+// Show Vencord elements?
+// Default to visible unless user sets to hidden
+@property --demo-vencord {
+    syntax: "visible | hidden";
+    inherits: false;
+    initial-value: visible;
 }
 
 // Border radius for emojis

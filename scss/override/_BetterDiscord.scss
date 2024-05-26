@@ -1,0 +1,8 @@
+// Hide BetterDiscord elements if user sets --demo-betterdiscord to hidden
+
+:root {
+    container: demo-betterdiscord;
+}
+
+@container demo-betterdiscord style(--demo-betterdiscord: hidden) {
+}

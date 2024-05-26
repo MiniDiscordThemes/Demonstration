@@ -1,33 +1,41 @@
-// Hide Vencord Toolbox
-.vc-toolbox-btn {
-    display: var(--demo-vencord-display);
+// Hide Vencord elements if user sets --demo-vencord to hidden
+
+:root {
+    container: demo-vencord;
 }
 
-// Hide Vencord chat buttons
-.vc-chatbar-button {
-    display: var(--demo-vencord-display);
-}
-
-// Hide "Disable Game Activity" button
-.horizontal__4848b {
-    [aria-label="Disable Game Activity"] {
-        display: var(--demo-vencord-display);
+@container demo-vencord style(--demo-vencord: hidden) {
+    // Hide Vencord Toolbox
+    .vc-toolbox-btn {
+        display: none;
     }
-}
 
-// Hide "Translate" button
-[aria-label="Translate"] {
-    display: var(--demo-vencord-display);
-}
+    // Hide Vencord chat buttons
+    .vc-chatbar-button {
+        display: none;
+    }
 
-// Hide "Vencord Contributor" profile badge
-[aria-label="Vencord Contributor"] {
-    display: var(--demo-vencord-display);
-}
+    // Hide "Disable Game Activity" button
+    .horizontal__4848b {
+        [aria-label="Disable Game Activity"] {
+            display: none;
+        }
+    }
 
-// Hide Vencord settings tabs
-.header__71a82:has(+ .item__48dda[class^="vc-"]),
-.item__48dda[class^="vc-"],
-.item__48dda[class^="vc-"] + .separator_d14fb1 {
-    display: var(--demo-vencord-display);
+    // Hide "Translate" button
+    [aria-label="Translate"] {
+        display: none;
+    }
+
+    // Hide Vencord profile badges
+    .profileBadges__1f2ab .anchor_c8ddc0:has([src*="badges.vencord"]) {
+        display: none;
+    }
+
+    // Hide Vencord settings tabs
+    .header__71a82:has(+ .item__48dda[class^="vc-"]),
+    .item__48dda[class^="vc-"],
+    .item__48dda[class^="vc-"] + .separator_d14fb1 {
+        display: none;
+    }
 }
