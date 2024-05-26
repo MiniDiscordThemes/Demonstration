@@ -38,15 +38,15 @@
 
 ![Screenshot of Demonstration applied to Discord][screenshot]
 
-| Light mode                                                     | Dark mode                                                    |
-| -------------------------------------------------------------- | ------------------------------------------------------------ |
+| Light mode                                                          | Dark mode                                                         |
+| ------------------------------------------------------------------- | ----------------------------------------------------------------- |
 | ![Screenshot of Demonstration light mode applied to Discord][light] | ![Screenshot of Demonstration dark mode applied to Discord][dark] |
 
 ## Installation
 
 ### [BetterDiscord][BetterDiscord]
 1. Download `Demonstration.theme.css`:
-    - [BetterDiscord store][release-bd]
+    <!-- - [BetterDiscord store][release-bd] -->
     - [GitHub][release-bd-gh]
 2. Place the file in the themes folder:
     - `Settings` > `BetterDiscord` > `Themes` > `Open Themes Folder`
@@ -66,7 +66,7 @@
 ### [Vencord][Vencord]
 #### Local
 1. Download `Demonstration.theme.css`:
-    - [BetterDiscord store][release-bd]
+    <!-- - [BetterDiscord store][release-bd] -->
     - [GitHub][release-bd-gh]
 2. Place the file in the themes folder:
     - `Settings` > `Vencord` > `Themes` > `Local Themes` > `Open Themes Folder`
@@ -77,15 +77,17 @@
 
 ## Customisation
 
- | Variable           | Description                    | Valid values                    | Default value |
- | ------------------ | ------------------------------ | ------------------------------- | ------------- |
- | `--temp-bg-color`  | Background colour              | Any [colour][css-color].        | `#000`        |
- | `--temp-bg-height` | Background height              | Any [length][css-length].       | `100vh`       |
- | `--temp-scanline`  | &#9936; Moving scanline on/off | `block` (on) or `none` (off).   | `block`       |
- | `--temp-flicker`   | &#9888; Screen flicker on/off  | `flicker` (on) or `none` (off). | `none`        |
-
-- &#9936; This effect is performance-intensive.
-- &#9888; This is a fast flickering effect and may not be suitable for those with photosensitive epilepsy.
+| Variable                  | Description                           | Valid values                       | Default value |
+| ------------------------- | ------------------------------------- | ---------------------------------- | ------------- |
+| `--demo-font-variant`     | Censored font style                   | `Circular` or `Rounded` or `Block` | `Circular`    |
+| `--demo-emoji-radius`     | Additional corner rounding for emojis | Any [length][css-length].          | `4px`         |
+| `--demo-emoji-opacity`    | Opacity of emojis                     | `0` to `1`.                        | `0.5`         |
+| `--demo-icon-hue`         | Hue for icons, emojis, badges         | `0` to `360`.                      | `240`         |
+| `--demo-image-hue`        | Hue for image attachments             | `0` to `360`.                      | `270`         |
+| `--demo-banner-hue`       | Hue for server banners                | `0` to `360`.                      | `180`         |
+| `--demo-self-hue`         | Hue for your own avatar               | `0` to `360`.                      | `300`         |
+| `--demo-font-reader`      | Uncensored font                       | Any installed font.                | `none`        |
+| `--demo-font-code-reader` | Uncensored code font                  | Any installed font.                | `none`        |
 
 ### BetterDiscord
 1. Open `Settings` > `BetterDiscord` > `Themes`.
@@ -95,7 +97,7 @@
 ### Replugged
 1. Enable `Automatically Apply Quick CSS` in `Settings` > `Replugged` > `General`.
 2. Open `Settings` > `Replugged` > `Quick CSS`.
-3. Copy and paste lines 15-20 of [`Demonstration.theme.css`][.theme.css].
+3. Copy and paste lines 15-26 of [`Demonstration.theme.css`][.theme.css].
 4. Edit the variable values and save.
 
 ### Vencord
@@ -105,7 +107,7 @@
 3. Edit the variable values and save.
 #### Online
 1. `Enable Custom CSS` in `Settings` > `Vencord` > `Vencord` and click `Open QuickCSS File`.
-2. Copy and paste lines 15-20 of [`Demonstration.theme.css`][.theme.css].
+2. Copy and paste lines 15-26 of [`Demonstration.theme.css`][.theme.css].
 3. Edit the variable values.
 
 ## License

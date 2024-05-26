@@ -10,8 +10,17 @@
  * @donate https://ko-fi.com/saltssaumure
 */
 
-@import url("https://minidiscordthemes.github.io/Demonstration/temp.min.css");
+@import url("https://minidiscordthemes.github.io/Demonstration/demo.min.css");
 
 /* See https://github.com/MiniDiscordThemes/Demonstration#customisation for customisation settings. */
 :root {
+    --demo-font-variant:    Circular;
+    --demo-emoji-radius:    4px;
+    --demo-emoji-opacity:   0.5;
+    --demo-icon-hue:    240;
+    --demo-image-hue:   270;
+    --demo-banner-hue:  180;
+    --demo-self-hue:    300;
+    --demo-font-reader:         none;
+    --demo-font-code-reader:    none;
 }
