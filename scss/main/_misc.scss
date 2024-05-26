@@ -24,7 +24,11 @@
 // Activity icon
 .assetsLargeImage__57902,
 .assetsSmallImage__4c2f1,
-.gameIcon_f19d1f {
+.largeImage_afc95a,
+.smallImage__5c837,
+.gameIcon_f19d1f,
+.headerIcon__8b290,
+.multipleIconWrapper__8dd58 {
     @include genOneColor(var(--demo-icon-hue));
     content: $gradient;
 }

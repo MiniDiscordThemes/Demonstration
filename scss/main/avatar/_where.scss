@@ -28,6 +28,21 @@
     @include genColors;
 }
 
+// In Friends list
+.peopleListItem_dab480 {
+    @include genColors;
+}
+
+// In Active Now list
+.itemCard_b64118 {
+    @include genColors;
+}
+
+// In Active Now actions popover
+.memberItem_e792da {
+    @include genOneColor(var(--demo-icon-hue));
+}
+
 // In quick switcher modal
 .result__25f11 {
     @include genColors;
