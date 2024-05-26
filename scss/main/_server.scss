@@ -16,6 +16,11 @@
     background: $gradient !important;
 }
 
+// In inbox unreads
+.recentMentionsPopout__40c54 .scroller_e3927b > [style="opacity: 1; height: auto;"] {
+    @include genColors;
+}
+
 // In collapsed folder
 .guildIcon_b6bfa7 {
     @include genColors(4);
@@ -23,21 +28,13 @@
 
 // In profile popout mutual servers
 .avatar__611fe,
-.memberSince__2eba7 {
+.memberSince__2eba7,
+// In settings boost tab
+.guildContainer_fef06f {
     @include genColors(3);
 }
 
 // In profile popout server-specific about me
 .aboutMeGuildIcon_b141fb {
     @include genOneColor(var(--demo-icon-hue));
-}
-
-// In inbox unreads
-.recentMentionsPopout__40c54 .scroller_e3927b > [style="opacity: 1; height: auto;"] {
-    @include genColors;
-}
-
-// In settings boost tab
-.guildContainer_fef06f {
-    @include genColors(3);
 }

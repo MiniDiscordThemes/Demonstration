@@ -1,7 +1,7 @@
 @use "../vars" as *;
 @use "../mixins" as *;
 
-// Uploaded images
+// Attachment images
 
 // Images and videos in chat
 .loadingOverlay__35a04 {
@@ -33,9 +33,4 @@
 .expandable__6a921 .icon__4bc4d {
     @include genOneColor(var(--demo-image-hue));
     content: $gradient;
-}
-
-// Profile banner
-.banner__6d414 {
-    background-image: none !important;
 }

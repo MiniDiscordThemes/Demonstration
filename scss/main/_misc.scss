@@ -1,7 +1,12 @@
 @use "../vars" as *;
 @use "../mixins" as *;
 
-// Stuff I'm not sure where to put yet
+// Misc content
+
+// Profile banner
+.banner__6d414 {
+    background-image: none !important;
+}
 
 // Server banner
 .bannerImg_fe5c1b {

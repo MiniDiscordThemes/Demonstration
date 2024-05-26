@@ -4,36 +4,21 @@
 // User avatar type
 
 // Avatar with status mask
-.avatar__991e2:where(:not(.avatarDecoration_cf681a .avatar__991e2)) {
-    content: $gradient;
-}
-
+.avatar__991e2:where(:not(.avatarDecoration_cf681a .avatar__991e2)),
 // Chat avatar
-.avatar__08316 {
-    content: $gradient;
-}
-
+.avatar__08316,
 // Reply avatar
-:is(.threadMessageAccessoryAvatar__27333, .replyAvatar__4ba85, .executedCommandAvatar_cfc856) {
-    content: $gradient;
-}
-
+:is(.threadMessageAccessoryAvatar__27333, .replyAvatar__4ba85, .executedCommandAvatar_cfc856),
 // Inbox unread avatar
-.dmIcon__160f0 {
-    content: $gradient;
-}
-
+.dmIcon__160f0,
 // Search suggestions avatar
-.displayAvatar__0be99 {
+.displayAvatar__0be99,
+// Embed author avatar
+.embedAuthorIcon_d3f927 {
     content: $gradient;
 }
 
 // Profile settings avatar
 .avatarUploaderInner__71578 {
     background: $gradient !important;
-}
-
-// Embed author avatar {
-.embedAuthorIcon_d3f927 {
-    content: $gradient;
 }
