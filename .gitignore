@@ -5,3 +5,7 @@
 /bundle
 /dist
 /src
+
+# Preview
+/preview/*.kra
+/preview/*.*~
