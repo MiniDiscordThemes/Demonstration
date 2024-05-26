@@ -1,3 +1,4 @@
+@use "../funcs" as *;
 @use "../vars" as *;
 @use "../mixins" as *;
 
@@ -26,11 +27,14 @@
     @include genColors(4);
 }
 
-// In profile popout mutual servers
-.avatar__611fe,
-.memberSince__2eba7,
-// In settings boost tab
-.guildContainer_fef06f {
+$_locations: (
+    // In profile popout mutual servers
+    ".avatar__611fe",
+    ".memberSince__2eba7",
+    // In settings boost tab
+    ".guildContainer_fef06f"
+);
+:is(#{unquoteSelectors($_locations)}) {
     @include genColors(3);
 }
 

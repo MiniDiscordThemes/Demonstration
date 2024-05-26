@@ -1,47 +1,53 @@
-@use "../../vars" as *;
+@use "../../funcs" as *;
 @use "../../mixins" as *;
 
 // User avatar location
 
-// In chat message
-.messageListItem__050f9,
-// In active threads
-.container__9922f,
-// In DM list
-.container__3792d,
-// In DM profile mutual friends
-.listRow__50619,
-// In Friends list
-.peopleListItem_dab480,
-// In Active Now list
-.itemCard_b64118,
-// In search suggestions
-.option__91497,
-// In search results
-.container__3be1d,
-// In quick switcher modal
-.result__25f11,
-// In invite to server modal
-.inviteRow_d6ad74,
-// In "Select Friends" popout
-.friendWrapper_f9b51d,
-// In avatar decoration shop
-.shopCard__3d319,
-// In pinned messages
-.messageGroupWrapper__1fce2,
-// In inbox mentions
-.container__7c2c1,
-// In inbox unreads
-.messageContainer__3e208,
-// In memberslist
-.member_aa4760 {
+$_locations: (
+    // In chat message
+    ".messageListItem__050f9",
+    // In active threads
+    ".container__9922f",
+    // In DM list
+    ".container__3792d",
+    // In DM profile mutual friends
+    ".listRow__50619",
+    // In Friends list
+    ".peopleListItem_dab480",
+    // In Active Now list
+    ".itemCard_b64118",
+    // In search suggestions
+    ".option__91497",
+    // In search results
+    ".container__3be1d",
+    // In quick switcher modal
+    ".result__25f11",
+    // In invite to server modal
+    ".inviteRow_d6ad74",
+    // In "Select Friends" popout
+    ".friendWrapper_f9b51d",
+    // In avatar decoration shop
+    ".shopCard__3d319",
+    // In pinned messages
+    ".messageGroupWrapper__1fce2",
+    // In inbox mentions
+    ".container__7c2c1",
+    // In inbox unreads
+    ".messageContainer__3e208",
+    // In memberslist
+    ".member_aa4760"
+);
+:is(#{unquoteSelectors($_locations)}) {
     @include genColors;
 }
 
-// In "<number> in voice" bubble
-.avatarSize__70e76,
-// In VC video - small row
-.tileSizer__9b4d7 {
+$_locations: (
+    // In "<number> in voice" bubble
+    ".avatarSize__70e76",
+    // In VC video - small row
+    ".tileSizer__9b4d7"
+);
+:is(#{unquoteSelectors($_locations)}) {
     @include genColors(4);
 }
 
@@ -50,24 +56,30 @@
     @include genColors(3);
 }
 
-// In Active Now actions popover
-.memberItem_e792da,
-// In DM title
-.upperContainer__57565
-// In VC status
-.statusIcon_dd26a9,
-// In VC video - large video
-.videoFrame_de25a1 {
+$_locations: (
+    // In Active Now actions popover
+    ".memberItem_e792da",
+    // In DM title
+    ".upperContainer__57565",
+    // In VC status
+    ".statusIcon_dd26a9",
+    // In VC video - large video
+    ".videoFrame_de25a1"
+);
+:is(#{unquoteSelectors($_locations)}) {
     @include genOneColor(var(--demo-icon-hue));
 }
 
-// In user panel - self
-.panels__58331 .avatar__991e2,
-// In settings - self
-.accountProfileCard__744d8,
-.avatarUploader__1f1a2,
-.profile_db01cf,
-.preview__30ef4,
-.preview__22e05 {
+$_locations: (
+    // In user panel - self
+    ".panels__58331 .avatar__991e2",
+    // In settings - self
+    ".accountProfileCard__744d8",
+    ".avatarUploader__1f1a2",
+    ".profile_db01cf",
+    ".preview__30ef4",
+    ".preview__22e05"
+);
+:is(#{unquoteSelectors($_locations)}) {
     @include genOneColor(var(--demo-self-hue));
 }

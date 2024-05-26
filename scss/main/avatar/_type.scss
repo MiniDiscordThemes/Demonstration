@@ -1,20 +1,27 @@
+@use "../../funcs" as *;
 @use "../../vars" as *;
-@use "../../mixins" as *;
 
-// User avatar type
+// Avatar types
 
-// Avatar with status mask
-.avatar__991e2:where(:not(.avatarDecoration_cf681a .avatar__991e2)),
-// Chat avatar
-.avatar__08316,
-// Reply avatar
-:is(.threadMessageAccessoryAvatar__27333, .replyAvatar__4ba85, .executedCommandAvatar_cfc856),
-// Inbox unread avatar
-.dmIcon__160f0,
-// Search suggestions avatar
-.displayAvatar__0be99,
-// Embed author avatar
-.embedAuthorIcon_d3f927 {
+$_avatars: (
+    // Avatar with status mask
+    ".avatar__991e2:where(:not(.avatarDecoration_cf681a .avatar__991e2))",
+    // Chat avatar
+    ".avatar__08316",
+    // Reply avatar
+    ".threadMessageAccessoryAvatar__27333",
+    // Reply avatar
+    ".replyAvatar__4ba85",
+    // Reply avatar
+    ".executedCommandAvatar_cfc856",
+    // Inbox unread avatar
+    ".dmIcon__160f0",
+    // Search suggestions avatar
+    ".displayAvatar__0be99",
+    // Embed author avatar
+    ".embedAuthorIcon_d3f927"
+);
+:is(#{unquoteSelectors($_avatars)}) {
     content: $gradient;
 }
 

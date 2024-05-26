@@ -1,3 +1,4 @@
+@use "../funcs" as *;
 @use "../vars" as *;
 @use "../mixins" as *;
 
@@ -18,12 +19,15 @@
     object-fit: unset;
 }
 
-// In server list
-.listItems__49027 > div, 
-// In emoji grid
-.emojiListRow__6d732 > li,
-// In sticker grid
-.row_b3c4f2 {
+$_locations: (
+    // In server list
+    ".listItems__49027 > div",
+    // In emoji grid
+    ".emojiListRow__6d732 > li",
+    // In sticker grid
+    ".row_b3c4f2"
+);
+:is(#{unquoteSelectors($_locations)}) {
     @include genColors;
 }
 
