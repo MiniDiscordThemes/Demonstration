@@ -16,5 +16,12 @@
   "type": "replugged-theme",
   "main": "scss/demo.scss",
   "source": "https://github.com/MiniDiscordThemes/Demonstration",
-  "image": ["https://minidiscordthemes.github.io/Demonstration/preview/preview.avif"]
+  "image": [
+    "https://minidiscordthemes.github.io/Demonstration/preview/preview-dark.png",
+    "https://minidiscordthemes.github.io/Demonstration/preview/preview-light.png",
+    "https://minidiscordthemes.github.io/Demonstration/preview/preview-neobrutal.png",
+    "https://minidiscordthemes.github.io/Demonstration/preview/preview-synthesis.png",
+    "https://minidiscordthemes.github.io/Demonstration/preview/preview-ninex.png",
+    "https://minidiscordthemes.github.io/Demonstration/preview/preview-tritone.png"
+  ]
 }

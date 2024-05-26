@@ -15,6 +15,7 @@
     content: $gradient;
     @include addRoundedCorners;
     @include addTransparency;
+    object-fit: unset;
 }
 
 // Server list

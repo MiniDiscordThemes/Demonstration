@@ -1,6 +1,9 @@
-[screenshot]:       https://minidiscordthemes.github.io/Demonstration/preview/preview.avif
-[light]:            https://minidiscordthemes.github.io/Demonstration/preview/light.avif
-[dark]:             https://minidiscordthemes.github.io/Demonstration/preview/dark.avif
+[preview-dark]:         https://minidiscordthemes.github.io/Demonstration/preview/preview-dark.png
+[preview-light]:        https://minidiscordthemes.github.io/Demonstration/preview/preview-light.png
+[preview-neobrutal]:    https://minidiscordthemes.github.io/Demonstration/preview/preview-neobrutal.png
+[preview-synthesis]:    https://minidiscordthemes.github.io/Demonstration/preview/preview-synthesis.png
+[preview-ninex]:        https://minidiscordthemes.github.io/Demonstration/preview/preview-ninex.png
+[preview-tritone]:      https://minidiscordthemes.github.io/Demonstration/preview/preview-tritone.png
 
 [css-color]:        https://developer.mozilla.org/en-US/docs/Web/CSS/color_value
 [css-length]:       https://developer.mozilla.org/en-US/docs/Web/CSS/length
@@ -36,11 +39,11 @@
 
 ***A Discord theme for demonstrating Discord themes.***
 
-![Screenshot of Demonstration applied to Discord][screenshot]
-
-| Light mode                                                          | Dark mode                                                         |
-| ------------------------------------------------------------------- | ----------------------------------------------------------------- |
-| ![Screenshot of Demonstration light mode applied to Discord][light] | ![Screenshot of Demonstration dark mode applied to Discord][dark] |
+| Dark mode                                 | Light mode                                 |
+| ----------------------------------------- | ------------------------------------------ |
+| ![Default dark mode][preview-dark]        | ![Default light mode][preview-light]       |
+| ![Synthesis dark mode][preview-synthesis] | ![Neobrutal light mode][preview-neobrutal] |
+| ![Tritone dark mode][preview-tritone]     | ![Ninex light mode][preview-ninex]         |
 
 ## Installation
 
@@ -99,7 +102,7 @@
 ### Replugged
 1. Enable `Automatically Apply Quick CSS` in `Settings` > `Replugged` > `General`.
 2. Open `Settings` > `Replugged` > `Quick CSS`.
-3. Copy and paste lines 15-26 of [`Demonstration.theme.css`][.theme.css].
+3. Copy and paste lines 15-28 of [`Demonstration.theme.css`][.theme.css].
 4. Edit the variable values and save.
 
 ### Vencord
@@ -109,7 +112,7 @@
 3. Edit the variable values and save.
 #### Online
 1. `Enable Custom CSS` in `Settings` > `Vencord` > `Vencord` and click `Open QuickCSS File`.
-2. Copy and paste lines 15-26 of [`Demonstration.theme.css`][.theme.css].
+2. Copy and paste lines 15-28 of [`Demonstration.theme.css`][.theme.css].
 3. Edit the variable values.
 
 ## License
