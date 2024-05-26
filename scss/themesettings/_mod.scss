@@ -1,12 +1,7 @@
 // Show or hide client mod elements based on user settings
 // Default to visible unless user sets to hidden
-
-$_mods: betterdiscord, replugged, vencord;
-
-@each $_mod in $_mods {
-    @property --demo-#{$_mod} {
-        syntax: "visible | hidden";
-        inherits: false;
-        initial-value: visible;
-    }
+@property --demo-clientmod {
+    syntax: "visible | hidden";
+    inherits: false;
+    initial-value: visible;
 }

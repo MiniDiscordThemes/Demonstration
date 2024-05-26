@@ -1,6 +1,6 @@
 // Hide Vencord elements if user sets --demo-vencord to hidden
 
-@container demo-vencord style(--demo-vencord: hidden) {
+@container demo-clientmod style(--demo-clientmod: hidden) {
     // Hide Vencord Toolbox
     .vc-toolbox-btn {
         display: none;
