@@ -51,8 +51,13 @@ $_locations: (
     @include mixin.genColors(4);
 }
 
-// In settings nitro tab
-.iconContainer_e812a7 .wrapper__3ed10 {
+$_locations: (
+    // In typing indicator
+    ".base__06abc .text_eb454c strong",
+    // In settings nitro tab
+    ".iconContainer_e812a7 .wrapper__3ed10"
+);
+:is(#{func.unquoteSelectors($_locations)}) {
     @include mixin.genColors(3);
 }
 
