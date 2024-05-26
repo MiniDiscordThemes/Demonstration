@@ -1,0 +1,38 @@
+@use "../vars" as *;
+@use "../mixins" as *;
+
+// Emoji picker
+
+// Server icon
+.guildIcon_ed1ab4 {
+    content: $gradient;
+}
+
+// Emoji, emoji, sticker
+.emoji__92b46,
+.image__43623,
+.stickerAsset_ab864f {
+    content: $gradient;
+    @include addRoundedCorners;
+    @include addTransparency;
+}
+
+// Server list
+.listItems__49027 > div {
+    @include genColors;
+}
+
+// Emoji grid
+.emojiListRow__6d732 > li {
+    @include genColors;
+}
+
+// Sticker grid
+.row_b3c4f2 {
+    @include genColors;
+}
+
+// Bottom bar current emoji info
+.inspector__80c84 {
+    @include genOneColor(var(--demo-icon-hue));
+}

@@ -1,0 +1,27 @@
+// Generate single colour from hue
+@mixin genOneColor($hue) {
+    --demo-gradient-color: oklch(0.7 0.1 #{$hue});
+}
+
+// Generate rainbow of colours from number of versions
+// Must be applied on nthable selector
+@mixin genColors($vers: 10) {
+    @for $i from 1 through $vers {
+        &:nth-child(#{$vers}n + #{$i}) {
+            $hue: calc(360 / $vers * $i);
+            @include genOneColor($hue);
+        }
+    }
+}
+
+// Applied to gradiented elements typically without visible corners yet no border-radius
+// Eg. emoji, sticker
+@mixin addRoundedCorners {
+    border-radius: var(--demo-emoji-radius);
+}
+
+// Applied to gradiented elements typically with partially transparent image
+// Eg. emoji, role icon, clan icon
+@mixin addTransparency {
+    opacity: var(--demo-emoji-opacity);
+}

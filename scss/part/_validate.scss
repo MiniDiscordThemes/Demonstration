@@ -1,0 +1,70 @@
+// Variant of Flow font
+@property --demo-font-variant {
+    syntax: "Circular | Rounded | Block";
+    inherits: false;
+    initial-value: Circular;
+}
+
+// Emergency legible font
+@property --demo-font-reader {
+    syntax: "<custom-ident>";
+    inherits: false;
+    initial-value: none;
+}
+
+// Emergency legible font
+@property --demo-font-code-reader {
+    syntax: "<custom-ident>";
+    inherits: false;
+    initial-value: none;
+}
+
+// Border radius for emojis
+@property --demo-emoji-radius {
+    syntax: "<length>";
+    inherits: false;
+    initial-value: 4px;
+}
+
+// Opacity for emojis
+@property --demo-emoji-opacity {
+    syntax: "<number>";
+    inherits: false;
+    initial-value: 0.5;
+}
+
+// Hue for emojis, icons, badges, etc.
+@property --demo-icon-hue {
+    syntax: "<number>";
+    inherits: false;
+    initial-value: 240;
+}
+
+// Hue for attachments
+@property --demo-image-hue {
+    syntax: "<number>";
+    inherits: false;
+    initial-value: 270;
+}
+
+// Hue for server banners
+@property --demo-banner-hue {
+    syntax: "<number>";
+    inherits: false;
+    initial-value: 180;
+}
+
+// Hue for self avatars
+@property --demo-self-hue {
+    syntax: "<number>";
+    inherits: false;
+    initial-value: 300;
+}
+
+// Not exposed to the user
+// Red as debug
+@property --demo-gradient-color {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: red;
+}

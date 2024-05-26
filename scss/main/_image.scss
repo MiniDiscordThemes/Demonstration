@@ -1,0 +1,41 @@
+@use "../vars" as *;
+@use "../mixins" as *;
+
+// Uploaded images
+
+// Images and videos in chat
+.loadingOverlay__35a04 {
+    @include genOneColor(var(--demo-image-hue));
+    &::before {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 100%;
+        background: $gradient;
+        position: absolute;
+        z-index: 1;
+    }
+}
+
+// Before upload attachment preview
+.upload_c98ecb {
+    @include genColors(4);
+    .mediaContainer_e3d4b8 {
+        background: $gradient;
+        height: 100%;
+        .media__47d7e {
+            display: none;
+        }
+    }
+}
+
+// Edit attachment details modal
+.expandable__6a921 .icon__4bc4d {
+    @include genOneColor(var(--demo-image-hue));
+    content: $gradient;
+}
+
+// Profile banner
+.banner__6d414 {
+    background-image: none !important;
+}
