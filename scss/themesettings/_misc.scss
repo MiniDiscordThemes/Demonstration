@@ -1,0 +1,23 @@
+// Misc custom properties
+
+// Border radius for emojis
+@property --demo-emoji-radius {
+    syntax: "<length>";
+    inherits: true;
+    initial-value: 4px;
+}
+
+// Opacity for emojis
+@property --demo-emoji-opacity {
+    syntax: "<number>";
+    inherits: true;
+    initial-value: 0.5;
+}
+
+// Not exposed to the user
+// Default (error) gradient when not set
+@property --demo-gradient-color {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: red;
+}

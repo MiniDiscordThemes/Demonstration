@@ -1,0 +1,19 @@
+// Variant of Flow font
+@property --demo-font-variant {
+    syntax: "Circular | Rounded | Block";
+    inherits: false;
+    initial-value: Circular;
+}
+
+// Emoji font
+@property --demo-font-emoji {
+    syntax: "Noto | none";
+    inherits: false;
+    initial-value: Noto;
+}
+
+// Emergency legible font
+:root {
+    --demo-font-read: none;
+    --demo-font-code-read: none;
+}

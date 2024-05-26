@@ -1,0 +1,20 @@
+// Hues based on user settings
+
+$hues: (
+    // for emojis, icons, badges, etc.
+    icon: 240,
+    // for attachments
+    image: 270,
+    // for server banners
+    banner: 180,
+    // for self avatars
+    self: 300
+);
+
+@each $type, $hue in $hues {
+    @property --demo-#{$type}-hue {
+        syntax: "<number>";
+        inherits: true;
+        initial-value: $hue;
+    }
+}
