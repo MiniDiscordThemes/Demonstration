@@ -1,21 +1,21 @@
-@use "../funcs" as *;
-@use "../vars" as *;
-@use "../mixins" as *;
+@use "../funcs" as func;
+@use "../vars" as var;
+@use "../mixins" as mixin;
 
 // Emoji picker
 
 // Server icon
 .guildIcon_ed1ab4 {
-    content: $gradient;
+    content: var.$gradient;
 }
 
 // Emoji, emoji, sticker
 .emoji__92b46,
 .image__43623,
 .stickerAsset_ab864f {
-    content: $gradient;
-    @include addRoundedCorners;
-    @include addTransparency;
+    content: var.$gradient;
+    @include mixin.addRoundedCorners;
+    @include mixin.addTransparency;
     object-fit: unset;
 }
 
@@ -27,11 +27,11 @@ $_locations: (
     // In sticker grid
     ".row_b3c4f2"
 );
-:is(#{unquoteSelectors($_locations)}) {
-    @include genColors;
+:is(#{func.unquoteSelectors($_locations)}) {
+    @include mixin.genColors;
 }
 
 // In bottom bar current emoji info
 .inspector__80c84 {
-    @include genOneColor(var(--demo-icon-hue));
+    @include mixin.genOneColor(var(--demo-icon-hue));
 }

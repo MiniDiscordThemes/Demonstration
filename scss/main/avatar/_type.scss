@@ -1,5 +1,5 @@
-@use "../../funcs" as *;
-@use "../../vars" as *;
+@use "../../funcs" as func;
+@use "../../vars" as var;
 
 // Avatar types
 
@@ -21,11 +21,11 @@ $_avatars: (
     // Embed author avatar
     ".embedAuthorIcon_d3f927"
 );
-:is(#{unquoteSelectors($_avatars)}) {
-    content: $gradient;
+:is(#{func.unquoteSelectors($_avatars)}) {
+    content: var.$gradient;
 }
 
 // Profile settings avatar
 .avatarUploaderInner__71578 {
-    background: $gradient !important;
+    background: var.$gradient !important;
 }

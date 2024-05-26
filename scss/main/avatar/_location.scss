@@ -1,5 +1,5 @@
-@use "../../funcs" as *;
-@use "../../mixins" as *;
+@use "../../funcs" as func;
+@use "../../mixins" as mixin;
 
 // User avatar location
 
@@ -37,8 +37,8 @@ $_locations: (
     // In memberslist
     ".member_aa4760"
 );
-:is(#{unquoteSelectors($_locations)}) {
-    @include genColors;
+:is(#{func.unquoteSelectors($_locations)}) {
+    @include mixin.genColors;
 }
 
 $_locations: (
@@ -47,13 +47,13 @@ $_locations: (
     // In VC video - small row
     ".tileSizer__9b4d7"
 );
-:is(#{unquoteSelectors($_locations)}) {
-    @include genColors(4);
+:is(#{func.unquoteSelectors($_locations)}) {
+    @include mixin.genColors(4);
 }
 
 // In settings nitro tab
 .iconContainer_e812a7 .wrapper__3ed10 {
-    @include genColors(3);
+    @include mixin.genColors(3);
 }
 
 $_locations: (
@@ -66,8 +66,8 @@ $_locations: (
     // In VC video - large video
     ".videoFrame_de25a1"
 );
-:is(#{unquoteSelectors($_locations)}) {
-    @include genOneColor(var(--demo-icon-hue));
+:is(#{func.unquoteSelectors($_locations)}) {
+    @include mixin.genOneColor(var(--demo-icon-hue));
 }
 
 $_locations: (
@@ -80,6 +80,6 @@ $_locations: (
     ".preview__30ef4",
     ".preview__22e05"
 );
-:is(#{unquoteSelectors($_locations)}) {
-    @include genOneColor(var(--demo-self-hue));
+:is(#{func.unquoteSelectors($_locations)}) {
+    @include mixin.genOneColor(var(--demo-self-hue));
 }

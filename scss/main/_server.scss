@@ -1,30 +1,30 @@
-@use "../funcs" as *;
-@use "../vars" as *;
-@use "../mixins" as *;
+@use "../funcs" as func;
+@use "../vars" as var;
+@use "../mixins" as mixin;
 
 // Server icon
 
 // Full size server and active DM user
 .listItem__48528:not(.tutorialContainer_b06ae6 .listItem__48528) {
-    @include genColors;
+    @include mixin.genColors;
     .icon__11cf1 {
-        content: $gradient;
+        content: var.$gradient;
     }
 }
 
 // Mini server icons
 .icon__94164 {
-    background: $gradient !important;
+    background: var.$gradient !important;
 }
 
 // In inbox unreads
 .recentMentionsPopout__40c54 .scroller_e3927b > [style="opacity: 1; height: auto;"] {
-    @include genColors;
+    @include mixin.genColors;
 }
 
 // In collapsed folder
 .guildIcon_b6bfa7 {
-    @include genColors(4);
+    @include mixin.genColors(4);
 }
 
 $_locations: (
@@ -34,11 +34,11 @@ $_locations: (
     // In settings boost tab
     ".guildContainer_fef06f"
 );
-:is(#{unquoteSelectors($_locations)}) {
-    @include genColors(3);
+:is(#{func.unquoteSelectors($_locations)}) {
+    @include mixin.genColors(3);
 }
 
 // In profile popout server-specific about me
 .aboutMeGuildIcon_b141fb {
-    @include genOneColor(var(--demo-icon-hue));
+    @include mixin.genOneColor(var(--demo-icon-hue));
 }
