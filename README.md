@@ -80,6 +80,7 @@
 | Variable                  | Description                           | Valid values                       | Default value |
 | ------------------------- | ------------------------------------- | ---------------------------------- | ------------- |
 | `--demo-font-variant`     | Censored font style                   | `Circular` or `Rounded` or `Block` | `Circular`    |
+| `--demo-font-emoji`       | Emoji font style                      | `Noto` or `none`                   | `Noto`        |
 | `--demo-emoji-radius`     | Additional corner rounding for emojis | Any [length][css-length].          | `4px`         |
 | `--demo-emoji-opacity`    | Opacity of emojis                     | `0` to `1`.                        | `0.5`         |
 | `--demo-icon-hue`         | Hue for icons, emojis, badges         | `0` to `360`.                      | `240`         |

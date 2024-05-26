@@ -15,6 +15,7 @@
 /* See https://github.com/MiniDiscordThemes/Demonstration#customisation for customisation settings. */
 :root {
     --demo-font-variant:    Circular;
+    --demo-font-emoji:      Noto;
     --demo-emoji-radius:    4px;
     --demo-emoji-opacity:   0.5;
     --demo-icon-hue:    240;

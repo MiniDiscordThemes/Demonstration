@@ -5,18 +5,17 @@
     initial-value: Circular;
 }
 
-// Emergency legible font
-@property --demo-font-reader {
-    syntax: "<custom-ident>";
+// Emoji font
+@property --demo-font-emoji {
+    syntax: "Noto | none";
     inherits: false;
-    initial-value: none;
+    initial-value: Noto;
 }
 
 // Emergency legible font
-@property --demo-font-code-reader {
-    syntax: "<custom-ident>";
-    inherits: false;
-    initial-value: none;
+:root {
+    --demo-font-reader: none;
+    --demo-font-code-reader: none;
 }
 
 // Border radius for emojis
