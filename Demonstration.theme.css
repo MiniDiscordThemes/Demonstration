@@ -16,6 +16,7 @@
 :root {
     --demo-font-variant:    Circular;
     --demo-font-emoji:      Noto;
+    --demo-text:            censor;
     --demo-betterdiscord:   visible;
     --demo-replugged:       visible;
     --demo-vencord:         visible;
@@ -25,6 +26,4 @@
     --demo-image-hue:       270;
     --demo-banner-hue:      180;
     --demo-self-hue:        300;
-    --demo-font-read:       none;
-    --demo-font-code-read:  none;
 }

@@ -1,10 +1,6 @@
 // Show or hide client mod elements based on user settings
 // Default to visible unless user sets to hidden
 
-:root {
-    container: demo-betterdiscord demo-replugged demo-vencord;
-}
-
 $_mods: betterdiscord, replugged, vencord;
 
 @each $_mod in $_mods {
