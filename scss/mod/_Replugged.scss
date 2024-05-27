@@ -1,4 +1,27 @@
+@use "../vars" as var;
+@use "../mixins" as mixin;
+
 // Hide Replugged elements if user sets --demo-clientmod to hidden
 
 @container demo-clientmod style(--demo-clientmod: hidden) {
+}
+
+// SpotifyModal
+// https://github.com/Socketlike/replugged-plugins/tree/main/plugins/SpotifyModal
+#spotify-modal-root {
+    @include mixin.genOneColor(var(--demo-banner-hue));
+    // Cover art
+    .cover-art {
+        content: var.$gradient;
+    }
+}
+
+// FoldersRedesigned
+// https://github.com/YofukashiNo/FoldersRedesigned
+.wrapper__832f2 {
+    @include mixin.genColors;
+    // Custom folder icon
+    .foldersRedesigned-folderIcon {
+        background: var.$gradient !important;
+    }
 }
