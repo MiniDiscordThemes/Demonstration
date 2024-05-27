@@ -148,6 +148,10 @@ To edit the following variables, follow the instructions for your client mod.
 [MIT License][license]
 - <span title="Too long; didn't read; not a lawyer">TL;DR;NAL</span>: Do whatever you want with this theme, just include the original license.
 
+## Credits
+- [Flow typeface](https://github.com/HYPD/flow-typeface) by Dan Ross - OLF-1.1 license
+- [Noto Emoji](https://fonts.google.com/noto/specimen/Noto+Emoji) by Google - OLF-1.1 license
+
 ## Questions or suggestions?
 - [Post an issue on GitHub.][issues]
 - [Post in `#theme-support` on my support server.][discord]
