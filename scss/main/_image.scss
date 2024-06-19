@@ -18,19 +18,19 @@
 }
 
 // Before upload attachment preview
-.upload_c98ecb {
+.upload_df1eaf {
     @include mixin.genColors(4);
-    .mediaContainer_e3d4b8 {
+    .mediaContainer_f847a3 {
         background: var.$gradient;
         height: 100%;
-        .media__47d7e {
+        .media_f847a3 {
             display: none;
         }
     }
 }
 
 // Edit attachment details modal
-.expandable__6a921 .icon__4bc4d {
+.expandable_f82cc7 .icon_f82cc7 {
     @include mixin.genOneColor(var(--demo-image-hue));
     content: var.$gradient;
 }

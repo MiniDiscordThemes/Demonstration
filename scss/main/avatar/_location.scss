@@ -5,37 +5,37 @@
 
 $_locations: (
     // In chat message
-    ".messageListItem__050f9",
+    ".messageListItem_d5deea",
     // In active threads
-    ".container__9922f",
+    ".container_acb8b3",
     // In DM list
-    ".container__3792d",
+    ".container_b15955",
     // In DM profile mutual friends
-    ".listRow__50619",
+    ".listRow_e4be58",
     // In Friends list
-    ".peopleListItem_dab480",
+    ".peopleListItem_d51464",
     // In Active Now list
-    ".itemCard_b64118",
+    ".itemCard_f02fcf",
     // In search suggestions
-    ".option__91497",
+    ".option_b0286e",
     // In search results
-    ".container__3be1d",
+    ".container_ddc613",
     // In quick switcher modal
-    ".result__25f11",
+    ".result_f14193",
     // In invite to server modal
-    ".inviteRow_d6ad74",
+    ".inviteRow_cedfaf",
     // In "Select Friends" popout
-    ".friendWrapper_f9b51d",
+    ".friendWrapper_ebf869",
     // In avatar decoration shop
-    ".shopCard__3d319",
+    ".shopCard_c23530",
     // In pinned messages
-    ".messageGroupWrapper__1fce2",
+    ".messageGroupWrapper_ac90a2",
     // In inbox mentions
-    ".container__7c2c1",
+    ".container_ddb5b4",
     // In inbox unreads
-    ".messageContainer__3e208",
+    ".messageContainer_c06487",
     // In memberslist
-    ".member_aa4760"
+    ".member_a31c43"
 );
 :is(#{func.unquoteSelectors($_locations)}) {
     @include mixin.genColors;
@@ -43,9 +43,9 @@ $_locations: (
 
 $_locations: (
     // In "<number> in voice" bubble
-    ".avatarSize__70e76",
+    ".avatarSize_e52fc2",
     // In VC video - small row
-    ".tileSizer__9b4d7"
+    ".tileSizer_d737b4"
 );
 :is(#{func.unquoteSelectors($_locations)}) {
     @include mixin.genColors(4);
@@ -53,9 +53,9 @@ $_locations: (
 
 $_locations: (
     // In typing indicator
-    ".base__06abc .text_eb454c strong",
+    ".base_d7ebeb .text_d7ebeb strong",
     // In settings nitro tab
-    ".iconContainer_e812a7 .wrapper__3ed10"
+    ".iconContainer_ced1ae .wrapper_c51b4e"
 );
 :is(#{func.unquoteSelectors($_locations)}) {
     @include mixin.genColors(3);
@@ -63,13 +63,13 @@ $_locations: (
 
 $_locations: (
     // In Active Now actions popover
-    ".memberItem_e792da",
+    ".memberItem_b09fe8",
     // In DM title
-    ".upperContainer__57565",
+    ".upperContainer_e44302",
     // In VC status
-    ".statusIcon_dd26a9",
+    ".statusIcon_d201be",
     // In VC video - large video
-    ".videoFrame_de25a1"
+    ".videoFrame_f8a4f3"
 );
 :is(#{func.unquoteSelectors($_locations)}) {
     @include mixin.genOneColor(var(--demo-icon-hue));
@@ -77,13 +77,13 @@ $_locations: (
 
 $_locations: (
     // In user panel - self
-    ".panels__58331 .avatar__991e2",
+    ".panels_a4d4d9 .avatar_c51b4e",
     // In settings - self
-    ".accountProfileCard__744d8",
-    ".avatarUploader__1f1a2",
-    ".profile_db01cf",
-    ".preview__30ef4",
-    ".preview__22e05"
+    ".accountProfileCard_b69b77",
+    ".avatarUploader_ab876d",
+    ".profile_f7ea1b",
+    ".preview_a614a7",
+    ".preview_c31d36"
 );
 :is(#{func.unquoteSelectors($_locations)}) {
     @include mixin.genOneColor(var(--demo-self-hue));

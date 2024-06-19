@@ -5,27 +5,27 @@
 
 $_avatars: (
     // Avatar with status mask
-    ".avatar__991e2:where(:not(.avatarDecoration_cf681a .avatar__991e2))",
+    ".avatar_c51b4e:where(:not(.avatarDecoration_c51b4e .avatar_c51b4e))",
     // Chat avatar
-    ".avatar__08316",
+    ".avatar_ec86aa",
     // Reply avatar
-    ".threadMessageAccessoryAvatar__27333",
+    ".threadMessageAccessoryAvatar_ec86aa",
     // Reply avatar
-    ".replyAvatar__4ba85",
+    ".replyAvatar_ec86aa",
     // Reply avatar
-    ".executedCommandAvatar_cfc856",
+    ".executedCommandAvatar_ec86aa",
     // Inbox unread avatar
-    ".dmIcon__160f0",
+    ".dmIcon_f3978e",
     // Search suggestions avatar
-    ".displayAvatar__0be99",
+    ".displayAvatar_b0286e",
     // Embed author avatar
-    ".embedAuthorIcon_d3f927"
+    ".embedAuthorIcon_ad0b71"
 );
 :is(#{func.unquoteSelectors($_avatars)}) {
     content: var.$gradient;
 }
 
 // Profile settings avatar
-.avatarUploaderInner__71578 {
+.avatarUploaderInner_ab876d {
     background: var.$gradient !important;
 }

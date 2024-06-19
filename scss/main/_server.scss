@@ -5,7 +5,7 @@
 // Server icon
 
 // Full size server and active DM user
-.listItem__48528:not(.tutorialContainer_b06ae6 .listItem__48528) {
+.listItem_c96c45:not(.tutorialContainer_f9623d .listItem_c96c45) {
     @include mixin.genColors;
     .icon__11cf1 {
         content: var.$gradient;
@@ -13,32 +13,32 @@
 }
 
 // Mini server icons
-.icon__94164 {
+.icon_f11207 {
     background: var.$gradient !important;
 }
 
 // In inbox unreads
-.recentMentionsPopout__40c54 .scroller_e3927b > [style="opacity: 1; height: auto;"] {
+.recentMentionsPopout_ddb5b4 .scroller_f1c3d9 > [style="opacity: 1; height: auto;"] {
     @include mixin.genColors;
 }
 
 // In collapsed folder
-.guildIcon_b6bfa7 {
+.guildIcon_bc7085 {
     @include mixin.genColors(4);
 }
 
 $_locations: (
     // In profile popout mutual servers
-    ".avatar__611fe",
+    ".avatar_ccc074",
     ".memberSince__2eba7",
     // In settings boost tab
-    ".guildContainer_fef06f"
+    ".guildContainer_e0d799"
 );
 :is(#{func.unquoteSelectors($_locations)}) {
     @include mixin.genColors(3);
 }
 
 // In profile popout server-specific about me
-.aboutMeGuildIcon_b141fb {
+.aboutMeGuildIcon_d6668b {
     @include mixin.genOneColor(var(--demo-icon-hue));
 }

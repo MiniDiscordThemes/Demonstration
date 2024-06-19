@@ -12,7 +12,7 @@
     }
 
     // Hide "Disable Game Activity" button
-    .horizontal__4848b {
+    .horizontal_bba380 {
         [aria-label="Disable Game Activity"] {
             display: none;
         }
@@ -24,14 +24,14 @@
     }
 
     // Hide Vencord profile badges
-    .profileBadges__1f2ab .anchor_c8ddc0:has([src*="badges.vencord"]) {
+    .profileBadges_f89da9 .anchor_af404b:has([src*="badges.vencord"]) {
         display: none;
     }
 
     // Hide Vencord settings tabs
-    .header__71a82:has(+ .item__48dda[class^="vc-"]),
-    .item__48dda[class^="vc-"],
-    .item__48dda[class^="vc-"] + .separator_d14fb1 {
+    .header_a0:has(+ .item_a0[class^="vc-"]),
+    .item_a0[class^="vc-"],
+    .item_a0[class^="vc-"] + .separator_a0 {
         display: none;
     }
 }

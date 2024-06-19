@@ -4,39 +4,39 @@
 // User avatar mixed type and location
 
 // In profile popout, profile modal
-:is(.avatarHoverTarget__9b4a9, .avatar__445f3) {
+:is(.avatarHoverTarget_f89da9, .avatar_ec3b75) {
     // Unthemed
-    .userProfileOuterUnthemed__9741c & {
+    .userProfileOuterUnthemed_c69a7b & {
         @include mixin.genOneColor(var(--demo-icon-hue));
     }
     // Themed
-    .userProfileOuterThemed_a425f3 & {
-        .avatar__991e2:where(:not(.avatarDecoration_cf681a .avatar__991e2)) {
+    .userProfileOuterThemed_c69a7b & {
+        .avatar_c51b4e:where(:not(.avatarDecoration_c51b4e .avatar_c51b4e)) {
             content: linear-gradient(var(--profile-gradient-primary-color), var(--profile-gradient-secondary-color));
         }
     }
 }
 
 // In VC server tooltip
-:is(.avatarContainerMasked_ed6212, .avatarContainer__37747) {
+:is(.avatarContainerMasked_c47562, .avatarContainer_c47562) {
     @include mixin.genColors(6);
-    .avatar__777a6 {
+    .avatar_c47562 {
         content: var.$gradient;
     }
 }
 
 // In channelslist in VC
-.draggable__68384 {
+.draggable_ac3629 {
     @include mixin.genColors(7);
-    .userAvatar_f45224 {
+    .userAvatar_ac3629 {
         background: var.$gradient !important;
     }
 }
 
 // In user panel current VC
-.avatarContainer__9688b {
+.avatarContainer_fb2f1c {
     @include mixin.genColors(8);
-    .avatar_c9fdd4 {
+    .avatar_fb2f1c {
         background: var.$gradient !important;
     }
 }
