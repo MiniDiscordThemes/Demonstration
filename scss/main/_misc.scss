@@ -4,20 +4,20 @@
 // Misc content
 
 // Profile banner
-.banner__6d414 {
+.banner_c3e427 {
     background-image: none !important;
 }
 
 // Server banner
-.bannerImg_fe5c1b {
+.bannerImg_fd6364 {
     @include mixin.genOneColor(var(--demo-banner-hue));
     content: var.$gradient;
 }
 
 // Emoji, role icon, clan badge
 .emoji,
-.roleIcon__92480,
-.badge_d12073 {
+.roleIcon_d5100b,
+.badge_d5cb59 {
     @include mixin.genOneColor(var(--demo-icon-hue));
     content: var.$gradient;
     @include mixin.addRoundedCorners;
@@ -27,21 +27,21 @@
 }
 
 // Activity icon
-.assetsLargeImage__57902,
-.assetsSmallImage__4c2f1,
-.largeImage_afc95a,
-.smallImage__5c837,
-.gameIcon_f19d1f,
-.headerIcon__8b290,
-.multipleIconWrapper__8dd58 {
+.assetsLargeImage_d5089b,
+.assetsSmallImage_d5089b,
+.largeImage_cd82a7,
+.smallImage_cd82a7,
+.gameIcon_d5089b,
+.headerIcon_cd82a7,
+.multipleIconWrapper_cd82a7 {
     @include mixin.genOneColor(var(--demo-icon-hue));
     content: var.$gradient;
 }
 
 // Authorised apps
-.authedApp__71a52 {
+.authedApp_f0135d {
     @include mixin.genColors;
-    .appAvatar__1fa87 {
+    .appAvatar_f0135d {
         content: var.$gradient;
     }
 }

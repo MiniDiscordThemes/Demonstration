@@ -5,14 +5,14 @@
 // Emoji picker
 
 // Server icon
-.guildIcon_ed1ab4 {
+.guildIcon_bfabc4 {
     content: var.$gradient;
 }
 
 // Emoji, emoji, sticker
-.emoji__92b46,
-.image__43623,
-.stickerAsset_ab864f {
+.emoji_f48b14,
+.image_b000dd,
+.stickerAsset_cb3343 {
     content: var.$gradient;
     @include mixin.addRoundedCorners;
     @include mixin.addTransparency;
@@ -21,17 +21,17 @@
 
 $_locations: (
     // In server list
-    ".listItems__49027 > div",
+    ".listItems_dcade6 > div",
     // In emoji grid
-    ".emojiListRow__6d732 > li",
+    ".emojiListRow_fbfedd > li",
     // In sticker grid
-    ".row_b3c4f2"
+    ".row_a708c4"
 );
 :is(#{func.unquoteSelectors($_locations)}) {
     @include mixin.genColors;
 }
 
 // In bottom bar current emoji info
-.inspector__80c84 {
+.inspector_c3120f {
     @include mixin.genOneColor(var(--demo-icon-hue));
 }
