@@ -3,17 +3,15 @@
 
 // User avatar mixed type and location
 
-// In profile popout, profile modal
-:is(.avatarHoverTarget_f89da9, .avatar_ec3b75) {
+// In profile popout/modal (old, new)
+:is(.avatarHoverTarget_f89da9, .avatar_c51b4e:where(:not(.avatarDecoration_c51b4e .avatar_c51b4e))) {
     // Unthemed
     .userProfileOuterUnthemed_c69a7b & {
         @include mixin.genOneColor(var(--demo-icon-hue));
     }
     // Themed
     .userProfileOuterThemed_c69a7b & {
-        .avatar_c51b4e:where(:not(.avatarDecoration_c51b4e .avatar_c51b4e)) {
-            content: linear-gradient(var(--profile-gradient-primary-color), var(--profile-gradient-secondary-color));
-        }
+        content: linear-gradient(var(--profile-gradient-primary-color), var(--profile-gradient-secondary-color));
     }
 }
 
@@ -21,6 +19,14 @@
 :is(.avatarContainerMasked_c47562, .avatarContainer_c47562) {
     @include mixin.genColors(6);
     .avatar_c47562 {
+        content: var.$gradient;
+    }
+}
+
+// In inbox "For You"
+.row_fd8ff1 {
+    @include mixin.genColors;
+    .image_f9bbb4 {
         content: var.$gradient;
     }
 }

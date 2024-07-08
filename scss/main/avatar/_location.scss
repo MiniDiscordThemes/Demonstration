@@ -34,8 +34,12 @@ $_locations: (
     ".container_ddb5b4",
     // In inbox unreads
     ".messageContainer_c06487",
-    // In memberslist
-    ".member_a31c43"
+    // In memberslist,
+    ".member_a31c43",
+    // In memberslist recent activity
+    ".container_c64476",
+    // In unjoined VC current users panels
+    ".tile_f2bd71"
 );
 :is(#{func.unquoteSelectors($_locations)}) {
     @include mixin.genColors;
@@ -66,6 +70,8 @@ $_locations: (
     ".memberItem_b09fe8",
     // In DM title
     ".upperContainer_e44302",
+    // In DM first message header
+    ".container_c2668b",
     // In VC status
     ".statusIcon_d201be",
     // In VC video - large video

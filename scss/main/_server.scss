@@ -7,7 +7,16 @@
 // Full size server and active DM user
 .listItem_c96c45:not(.tutorialContainer_f9623d .listItem_c96c45) {
     @include mixin.genColors;
-    .icon__11cf1 {
+    .icon_f90abb {
+        content: var.$gradient;
+    }
+}
+
+// In DM first message header mutual servers
+.avatarContainer_dc0b54 > :is(.svg_d48241, .avatar_dc0b54) {
+    @include mixin.genColors(3);
+    &.avatar_dc0b54,
+    .avatar_dc0b54 {
         content: var.$gradient;
     }
 }
@@ -39,6 +48,8 @@ $_locations: (
 }
 
 // In profile popout server-specific about me
-.aboutMeGuildIcon_d6668b {
+.aboutMeGuildIcon_d6668b,
+// In profile modal "Member Since"
+.memberSince_b06bc5 {
     @include mixin.genOneColor(var(--demo-icon-hue));
 }
